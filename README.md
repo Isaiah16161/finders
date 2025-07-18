@@ -1,19 +1,28 @@
-# 🎈 Blank app template
+# 🌶 SauceFinders Prototype
 
-A simple Streamlit app template for you to modify!
+This project contains a small proof‑of‑concept application for the **SauceFinders** marketplace. The app is built with [Streamlit](https://streamlit.io/) and showcases a sample catalogue of sauces plus a simple "Flavor Finder" quiz that recommends sauces based on heat, region and flavor profile.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
 
-### How to run it on your own machine
+## Running locally
 
 1. Install the requirements
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-2. Run the app
+2. Start the application
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+streamlit run streamlit_app.py
+```
+
+The datasets used by the demo live in `data/sauces.csv` and `data/reviews.csv`. Feel free to modify or expand them.
+
+### Features
+
+- Browse sauces with heat and rating filters
+- Flavor Finder quiz for personalized picks
+- Heat League rankings based on community reviews
+- Sauce Spotlight pages with videos and review summaries
